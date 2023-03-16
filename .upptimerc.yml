@@ -11,15 +11,14 @@ sites:
     url: https://chat.k2lin.com
   - name: K2Lin Auth
     url: https://auth.k2lin.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
 
 status-website:
+  theme: azure
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.k2lin.com
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/KTT-Icon.png
   name: K2Lin Status
   introTitle: "**K2Lin Status** 🚀"
   introMessage: Status watcher! For K2Lin Tech Tips projects, and more! 🕰️ [K2Lin Tech Tips](https://k2lin.com/).
