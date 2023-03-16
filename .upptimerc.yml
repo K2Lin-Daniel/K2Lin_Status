@@ -26,7 +26,7 @@ workflowSchedule:
   uptime: "*/15 * * * *"
 
 i18n:
-  footer: K2Lin Status Monitor
+  footer: K2Lin Status Monitor - K2Lin Teams 2023
 
 status-website:
   theme: night
@@ -39,8 +39,8 @@ status-website:
   favicon: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/KTT_Favicon.png
 
   name: K2Lin Status
-  introTitle: "**K2Lin Status** 🚀"
-  introMessage: Status watcher! For K2Lin Tech Tips projects, and more! 🕰️ [K2Lin.com](https://k2lin.com/).
+  introTitle: "**K2Lin Status Monitor** 🚀"
+  introMessage: ☘️Service Status watcher! For K2Lin Tech Tips projects, and more!  🔁[K2Lin.com](https://k2lin.com/).
   navbar:
     - title: Status
       href: /
