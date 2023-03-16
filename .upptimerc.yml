@@ -12,8 +12,17 @@ sites:
   - name: K2Lin Auth
     url: https://auth.k2lin.com
 
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/10 * * * *"
+
 status-website:
-  theme: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/azure.css
+  themeUrl: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/azure.css
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.k2lin.com
