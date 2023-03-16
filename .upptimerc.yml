@@ -29,7 +29,11 @@ i18n:
   footer: K2Lin Status Monitor [open source on GitHub]($REPO).
 
 status-website:
-  theme: ocean
+  themeUrl: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/azure.css
+
+  customHeadHtml: "<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">"
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.k2lin.com
