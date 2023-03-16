@@ -1,5 +1,4 @@
 :root {
-    --font-family: 'Comfortaa', Helvetica, sans-serif, Arial;
     --body-background-color: #001716;
     --body-text-color: #fff0f0;
     --card-background-color: #002b29;
@@ -24,4 +23,12 @@
     --submit-button-color: #ffffff;
     --graph-opacity: 1;
     --graph-filter: none;
+    font-family: 'Comfortaa', Helvetica, sans-serif, Arial;
+}
+
+body {
+  margin: 0;
+  font-family: 'Comfortaa', Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.5;
+  padding-bottom: 2.5rem;
 }
