@@ -1,31 +1,35 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: K2Lin-Daniel # Your GitHub organization or username, where this repository lives
+repo: K2Lin_Status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
+  - name: K2Lin Tech Tips
+    url: https://k2lin.com
+  - name: K2Lin Cloud Music
+    url: https://music.k2lin.com
+  - name: K2Lin Chat
+    url: https://chat.k2lin.com
+  - name: K2Lin Auth
+    url: https://auth.k2lin.com
   - name: Wikipedia
     url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: status.k2lin.com
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: K2Lin Status
+  introTitle: "**K2Lin Status** 🚀"
+  introMessage: Status watcher! For K2Lin Tech Tips projects, and more! 🕰️ [K2Lin Tech Tips](https://k2lin.com/).
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Main
+      href: https://k2lin.com/
+    - title: Music
+      href: https://music.k2lin.com/
+    - title: Chat
+      href: https://chat.k2lin.com/
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
