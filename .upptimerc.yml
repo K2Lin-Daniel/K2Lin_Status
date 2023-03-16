@@ -3,13 +3,13 @@ owner: K2Lin-Daniel # Your GitHub organization or username, where this repositor
 repo: K2Lin_Status # The name of this repository
 
 sites:
-  - name: K2Lin Tech Tips
+  - name: Main Site
     url: https://k2lin.com
-  - name: K2Lin Cloud Music
+  - name: Cloud Music
     url: https://music.k2lin.com
-  - name: K2Lin Chat
+  - name: Chat
     url: https://chat.k2lin.com
-  - name: K2Lin Auth
+  - name: Auth
     url: https://auth.k2lin.com
   - name: OurCraft Network
     check: "tcp-ping"
@@ -52,4 +52,4 @@ status-website:
       href: https://chat.k2lin.com/
     - title: OurCraft
       href: https://ourcraft.cyou/
-  css: "body { font-family: 'Comfortaa', Droid Sans, Helvetica, sans-serif }"
+  css: "body { font-family: 'Comfortaa', Droid Sans, Helvetica, sans-serif opacity: 0.5}"
