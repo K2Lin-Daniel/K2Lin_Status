@@ -25,6 +25,9 @@ workflowSchedule:
   updates: "0 3 * * *"
   uptime: "*/15 * * * *"
 
+i18n:
+  footer: K2Lin Status Monitor [open source on GitHub]($REPO).
+
 status-website:
   themeUrl: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/azure.css
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -33,8 +36,7 @@ status-website:
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/KTT-Icon.png
   favicon: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/KTT_Favicon.png
-  i18n:
-    footer: K2Lin Status Monitor [open source on GitHub]($REPO).
+
   name: K2Lin Status
   introTitle: "**K2Lin Status** 🚀"
   introMessage: Status watcher! For K2Lin Tech Tips projects, and more! 🕰️ [K2Lin.com](https://k2lin.com/).
@@ -47,4 +49,6 @@ status-website:
       href: https://music.k2lin.com/
     - title: Chat
       href: https://chat.k2lin.com/
+    - title: OurCraft
+      href: https://ourcraft.cyou/
 
