@@ -29,17 +29,13 @@ i18n:
   footer: K2Lin Status Monitor [open source on GitHub]($REPO).
 
 status-website:
-  themeUrl: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/azure.css
+  theme: ocean
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.k2lin.com
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/KTT-Icon.png
   favicon: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/KTT_Favicon.png
-
-  links:
-    - rel: stylesheet
-      href: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/azure.css
 
   name: K2Lin Status
   introTitle: "**K2Lin Status** 🚀"
