@@ -11,6 +11,10 @@ sites:
     url: https://chat.k2lin.com
   - name: K2Lin Auth
     url: https://auth.k2lin.com
+  - name: OurCraft Network
+    check: "tcp-ping"
+    url: cloud.k2lin.studio
+    port: 26775
 
 workflowSchedule:
   graphs: "0 0 * * *"
@@ -19,7 +23,7 @@ workflowSchedule:
   summary: "0 0 * * *"
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
-  uptime: "*/10 * * * *"
+  uptime: "*/15 * * * *"
 
 status-website:
   themeUrl: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/azure.css
@@ -28,6 +32,9 @@ status-website:
   cname: status.k2lin.com
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/KTT-Icon.png
+  favicon: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/KTT_Favicon.png
+  i18n:
+    footer: K2Lin Status Monitor [open source on GitHub]($REPO).
   name: K2Lin Status
   introTitle: "**K2Lin Status** 🚀"
   introMessage: Status watcher! For K2Lin Tech Tips projects, and more! 🕰️ [K2Lin.com](https://k2lin.com/).
