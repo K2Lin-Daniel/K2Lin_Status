@@ -52,4 +52,4 @@ status-website:
       href: https://chat.k2lin.com/
     - title: OurCraft
       href: https://ourcraft.cyou/
-  css: "body { font-family: 'Comfortaa', Droid Sans, Helvetica, sans-serif opacity: 0.5}"
+  css: "body { font-family: 'Comfortaa', Droid Sans, Helvetica, sans-serif }"
