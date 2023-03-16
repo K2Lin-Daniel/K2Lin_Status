@@ -1,6 +1,7 @@
 :root {
+    font-family: 'Comfortaa', cursive;
     --body-background-color: #001716;
-    --body-text-color: #f0ffff;
+    --body-text-color: #fff0f0;
     --card-background-color: #002b29;
     --nav-background-color: #002b29;
     --nav-border-bottom-color: #b1e4e1;

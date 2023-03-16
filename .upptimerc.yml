@@ -13,7 +13,7 @@ sites:
     url: https://auth.k2lin.com
 
 status-website:
-  theme: azure
+  theme: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/azure.css
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.k2lin.com
@@ -21,7 +21,7 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/KTT-Icon.png
   name: K2Lin Status
   introTitle: "**K2Lin Status** 🚀"
-  introMessage: Status watcher! For K2Lin Tech Tips projects, and more! 🕰️ [K2Lin Tech Tips](https://k2lin.com/).
+  introMessage: Status watcher! For K2Lin Tech Tips projects, and more! 🕰️ [K2Lin.com](https://k2lin.com/).
   navbar:
     - title: Status
       href: /
