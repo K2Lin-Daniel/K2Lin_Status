@@ -17,9 +17,9 @@ sites:
     port: 26775
 
 workflowSchedule:
-  graphs: "0 0 * * *"
-  responseTime: "0 23 * * *"
-  staticSite: "0 1 * * *"
+  graphs: "0 */2 * * *"
+  responseTime: "0 */2 * * *"
+  staticSite: "0 */12 * * *"
   summary: "0 0 * * *"
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
