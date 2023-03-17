@@ -6,27 +6,31 @@ sites:
   - name: Main Site
     url: https://k2lin.com
     icon: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png
+    maxResponseTime: 2000
   - name: Cloud Music
     url: https://music.k2lin.com
     icon: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png
   - name: Chat
     url: https://chat.k2lin.com
     icon: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png
+    maxResponseTime: 2000
   - name: Auth
     url: https://auth.k2lin.com
     icon: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png
+    maxResponseTime: 2000
   - name: OurCraft Network
     check: "tcp-ping"
     url: cloud.k2lin.studio
     icon: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png
+    maxResponseTime: 1250
     port: 26775
 
 workflowSchedule:
-  graphs: "0 */2 * * *"
+  graphs: "5 */2 * * *"
   responseTime: "0 */2 * * *"
   staticSite: "0 */12 * * *"
-  summary: "0 0 * * *"
-  updateTemplate: "0 0 * * *"
+  summary: "0 2 * * *"
+  updateTemplate: "0 1 * * *"
   updates: "0 3 * * *"
   uptime: "*/15 * * * *"
 
