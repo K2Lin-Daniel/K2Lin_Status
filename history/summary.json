@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 211,
-    "timeDay": 242,
-    "timeWeek": 211,
-    "timeMonth": 211,
-    "timeYear": 211,
+    "time": 233,
+    "timeDay": 227,
+    "timeWeek": 233,
+    "timeMonth": 233,
+    "timeYear": 233,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 110,
-    "timeDay": 113,
-    "timeWeek": 110,
-    "timeMonth": 110,
-    "timeYear": 110,
+    "time": 113,
+    "timeDay": 118,
+    "timeWeek": 113,
+    "timeMonth": 113,
+    "timeYear": 113,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 596,
-    "timeDay": 599,
-    "timeWeek": 596,
-    "timeMonth": 596,
-    "timeYear": 596,
+    "time": 575,
+    "timeDay": 537,
+    "timeWeek": 575,
+    "timeMonth": 575,
+    "timeYear": 575,
     "dailyMinutesDown": {}
   },
   {
@@ -64,11 +64,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1242,
-    "timeDay": 1155,
-    "timeWeek": 1242,
-    "timeMonth": 1242,
-    "timeYear": 1242,
+    "time": 1172,
+    "timeDay": 1025,
+    "timeWeek": 1172,
+    "timeMonth": 1172,
+    "timeYear": 1172,
     "dailyMinutesDown": {}
   },
   {
@@ -76,17 +76,19 @@
     "url": "cloud.k2lin.studio",
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "our-craft-network",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 336,
-    "timeDay": 324,
-    "timeWeek": 336,
-    "timeMonth": 336,
-    "timeYear": 336,
-    "dailyMinutesDown": {}
+    "time": 333,
+    "timeDay": 295,
+    "timeWeek": 333,
+    "timeMonth": 333,
+    "timeYear": 333,
+    "dailyMinutesDown": {
+      "2023-03-18": 0
+    }
   }
 ]
