@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 233,
-    "timeDay": 227,
-    "timeWeek": 233,
-    "timeMonth": 233,
-    "timeYear": 233,
+    "time": 222,
+    "timeDay": 241,
+    "timeWeek": 222,
+    "timeMonth": 222,
+    "timeYear": 222,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 575,
-    "timeDay": 537,
-    "timeWeek": 575,
-    "timeMonth": 575,
-    "timeYear": 575,
+    "time": 589,
+    "timeDay": 577,
+    "timeWeek": 589,
+    "timeMonth": 589,
+    "timeYear": 589,
     "dailyMinutesDown": {}
   },
   {
@@ -64,11 +64,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1172,
-    "timeDay": 1025,
-    "timeWeek": 1172,
-    "timeMonth": 1172,
-    "timeYear": 1172,
+    "time": 1174,
+    "timeDay": 1056,
+    "timeWeek": 1174,
+    "timeMonth": 1174,
+    "timeYear": 1174,
     "dailyMinutesDown": {}
   },
   {
@@ -76,19 +76,20 @@
     "url": "cloud.k2lin.studio",
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "our-craft-network",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 333,
-    "timeDay": 295,
-    "timeWeek": 333,
-    "timeMonth": 333,
-    "timeYear": 333,
+    "status": "up",
+    "uptime": "89.37%",
+    "uptimeDay": "71.92%",
+    "uptimeWeek": "89.37%",
+    "uptimeMonth": "89.37%",
+    "uptimeYear": "89.37%",
+    "time": 332,
+    "timeDay": 317,
+    "timeWeek": 332,
+    "timeMonth": 332,
+    "timeYear": 332,
     "dailyMinutesDown": {
-      "2023-03-18": 0
+      "2023-03-19": 156,
+      "2023-03-18": 248
     }
   }
 ]
