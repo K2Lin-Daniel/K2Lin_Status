@@ -26,13 +26,13 @@ sites:
     port: 26775
 
 workflowSchedule:
-  graphs: "5 */2 * * *"
-  responseTime: "0 */2 * * *"
-  staticSite: "0 */12 * * *"
-  summary: "0 2 * * *"
+  graphs: "10 */2 * * *"
+  responseTime: "15 * * * *"
+  staticSite: "20 */6 * * *"
+  summary: "35 */6 * * *"
   updateTemplate: "0 1 * * *"
   updates: "0 3 * * *"
-  uptime: "*/15 * * * *"
+  uptime: "*/10 * * * *"
 
 i18n:
   footer: K2Lin Status Monitor - K2Lin Teams 2023
