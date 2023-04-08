@@ -6,23 +6,23 @@ sites:
   - name: Main Site
     url: https://k2lin.com
     icon: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png
-    maxResponseTime: 2000
+    maxResponseTime: 4000
   - name: Cloud Music
     url: https://music.k2lin.com
     icon: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png
   - name: Chat
     url: https://chat.k2lin.com
     icon: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png
-    maxResponseTime: 2000
+    maxResponseTime: 4000
   - name: Auth
     url: https://auth.k2lin.com
     icon: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png
-    maxResponseTime: 2000
+    maxResponseTime: 4000
   - name: OurCraft Network
     check: "tcp-ping"
     url: cloud.k2lin.studio
     icon: https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png
-    maxResponseTime: 1250
+    maxResponseTime: 2250
     port: 26775
 
 workflowSchedule:
