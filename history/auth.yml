@@ -1,7 +1,7 @@
 url: https://auth.k2lin.com
-status: degraded
+status: up
 code: 200
-responseTime: 19825
-lastUpdated: 2023-04-30T22:24:00.173Z
+responseTime: 1199
+lastUpdated: 2023-04-30T22:25:43.306Z
 startTime: Thu Mar 16 2023 13:48:41 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
