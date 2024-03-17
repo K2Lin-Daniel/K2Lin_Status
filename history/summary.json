@@ -10,10 +10,10 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.41%",
     "uptimeYear": "95.42%",
-    "time": 188,
-    "timeDay": 197,
-    "timeWeek": 159,
-    "timeMonth": 222,
+    "time": 189,
+    "timeDay": 163,
+    "timeWeek": 166,
+    "timeMonth": 224,
     "timeYear": 189,
     "dailyMinutesDown": {
       "2024-02-28": 223,
@@ -56,9 +56,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 142,
-    "timeDay": 130,
+    "timeDay": 135,
     "timeWeek": 238,
-    "timeMonth": 180,
+    "timeMonth": 181,
     "timeYear": 142,
     "dailyMinutesDown": {
       "2024-01-17": 39
@@ -76,8 +76,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.39%",
     "time": 516,
-    "timeDay": 463,
-    "timeWeek": 472,
+    "timeDay": 462,
+    "timeWeek": 469,
     "timeMonth": 475,
     "timeYear": 516,
     "dailyMinutesDown": {
@@ -92,14 +92,14 @@
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "auth",
     "status": "up",
-    "uptime": "93.07%",
+    "uptime": "93.08%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "93.05%",
     "time": 997,
-    "timeDay": 718,
-    "timeWeek": 715,
+    "timeDay": 708,
+    "timeWeek": 719,
     "timeMonth": 709,
     "timeYear": 997,
     "dailyMinutesDown": {
@@ -194,13 +194,13 @@
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "our-craft-network",
     "status": "up",
-    "uptime": "91.94%",
+    "uptime": "91.95%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.75%",
     "uptimeYear": "91.91%",
     "time": 291,
-    "timeDay": 248,
+    "timeDay": 249,
     "timeWeek": 246,
     "timeMonth": 257,
     "timeYear": 291,
@@ -254,8 +254,7 @@
       "2023-04-09": 39,
       "2023-04-02": 21,
       "2023-03-30": 53,
-      "2023-03-19": 156,
-      "2023-03-18": 248
+      "2023-03-19": 156
     }
   }
 ]
