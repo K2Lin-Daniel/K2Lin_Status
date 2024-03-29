@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "95.42%",
     "time": 187,
-    "timeDay": 174,
-    "timeWeek": 160,
-    "timeMonth": 174,
+    "timeDay": 173,
+    "timeWeek": 153,
+    "timeMonth": 170,
     "timeYear": 186,
     "dailyMinutesDown": {
       "2024-02-28": 223,
@@ -56,9 +56,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 142,
-    "timeDay": 136,
+    "timeDay": 143,
     "timeWeek": 140,
-    "timeMonth": 170,
+    "timeMonth": 171,
     "timeYear": 142,
     "dailyMinutesDown": {
       "2024-01-17": 39
@@ -76,9 +76,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.39%",
     "time": 513,
-    "timeDay": 487,
-    "timeWeek": 476,
-    "timeMonth": 472,
+    "timeDay": 472,
+    "timeWeek": 473,
+    "timeMonth": 471,
     "timeYear": 513,
     "dailyMinutesDown": {
       "2023-11-30": 677,
@@ -92,16 +92,16 @@
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "auth",
     "status": "up",
-    "uptime": "93.29%",
+    "uptime": "93.30%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "93.06%",
     "time": 984,
-    "timeDay": 677,
-    "timeWeek": 703,
+    "timeDay": 698,
+    "timeWeek": 707,
     "timeMonth": 715,
-    "timeYear": 981,
+    "timeYear": 980,
     "dailyMinutesDown": {
       "2024-01-24": 143,
       "2024-01-23": 319,
@@ -181,8 +181,7 @@
       "2023-04-25": 38,
       "2023-04-13": 21,
       "2023-04-11": 25,
-      "2023-04-07": 35,
-      "2023-03-30": 16
+      "2023-04-07": 35
     }
   },
   {
@@ -191,15 +190,15 @@
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "our-craft-network",
     "status": "up",
-    "uptime": "92.19%",
+    "uptime": "92.20%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "91.99%",
     "time": 290,
-    "timeDay": 249,
+    "timeDay": 253,
     "timeWeek": 257,
-    "timeMonth": 251,
+    "timeMonth": 252,
     "timeYear": 289,
     "dailyMinutesDown": {
       "2024-02-25": 16,
@@ -249,8 +248,7 @@
       "2023-05-28": 25,
       "2023-04-10": 18,
       "2023-04-09": 39,
-      "2023-04-02": 21,
-      "2023-03-30": 53
+      "2023-04-02": 21
     }
   }
 ]
