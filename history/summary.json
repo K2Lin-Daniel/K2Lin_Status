@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "95.43%",
     "time": 177,
-    "timeDay": 109,
-    "timeWeek": 134,
-    "timeMonth": 148,
+    "timeDay": 120,
+    "timeWeek": 136,
+    "timeMonth": 149,
     "timeYear": 177,
     "dailyMinutesDown": {
       "2024-02-28": 223,
@@ -55,8 +55,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 142,
-    "timeDay": 101,
-    "timeWeek": 124,
+    "timeDay": 86,
+    "timeWeek": 123,
     "timeMonth": 138,
     "timeYear": 142,
     "dailyMinutesDown": {
@@ -75,9 +75,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.39%",
     "time": 501,
-    "timeDay": 496,
-    "timeWeek": 489,
-    "timeMonth": 481,
+    "timeDay": 504,
+    "timeWeek": 494,
+    "timeMonth": 482,
     "timeYear": 499,
     "dailyMinutesDown": {
       "2023-11-30": 677,
@@ -97,8 +97,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "93.15%",
     "time": 893,
-    "timeDay": 670,
-    "timeWeek": 702,
+    "timeDay": 654,
+    "timeWeek": 692,
     "timeMonth": 711,
     "timeYear": 880,
     "dailyMinutesDown": {
@@ -165,8 +165,7 @@
       "2023-05-30": 16,
       "2023-05-29": 61,
       "2023-05-28": 56,
-      "2023-05-26": 21,
-      "2023-05-25": 32
+      "2023-05-26": 21
     }
   },
   {
@@ -175,14 +174,14 @@
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "our-craft-network",
     "status": "up",
-    "uptime": "93.20%",
+    "uptime": "93.21%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "92.01%",
     "time": 284,
-    "timeDay": 250,
-    "timeWeek": 252,
+    "timeDay": 253,
+    "timeWeek": 253,
     "timeMonth": 250,
     "timeYear": 284,
     "dailyMinutesDown": {
