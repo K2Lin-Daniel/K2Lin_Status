@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "95.51%",
     "time": 171,
-    "timeDay": 155,
-    "timeWeek": 161,
-    "timeMonth": 175,
+    "timeDay": 152,
+    "timeWeek": 160,
+    "timeMonth": 174,
     "timeYear": 170,
     "dailyMinutesDown": {
       "2024-02-28": 223,
@@ -49,8 +49,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 146,
-    "timeDay": 356,
-    "timeWeek": 204,
+    "timeDay": 352,
+    "timeWeek": 202,
     "timeMonth": 164,
     "timeYear": 144,
     "dailyMinutesDown": {
@@ -70,9 +70,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.39%",
     "time": 487,
-    "timeDay": 474,
-    "timeWeek": 490,
-    "timeMonth": 502,
+    "timeDay": 470,
+    "timeWeek": 487,
+    "timeMonth": 501,
     "timeYear": 486,
     "dailyMinutesDown": {
       "2023-11-30": 677,
@@ -86,15 +86,15 @@
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "auth",
     "status": "up",
-    "uptime": "95.74%",
+    "uptime": "95.75%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "94.47%",
+    "uptimeYear": "94.56%",
     "time": 703,
-    "timeDay": 767,
-    "timeWeek": 729,
-    "timeMonth": 727,
+    "timeDay": 771,
+    "timeWeek": 735,
+    "timeMonth": 729,
     "timeYear": 701,
     "dailyMinutesDown": {
       "2024-01-24": 143,
@@ -120,8 +120,7 @@
       "2023-11-27": 54,
       "2023-11-08": 15,
       "2023-11-05": 231,
-      "2023-11-04": 1440,
-      "2023-11-03": 1440
+      "2023-11-04": 1440
     }
   },
   {
@@ -134,10 +133,10 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "94.17%",
+    "uptimeYear": "94.26%",
     "time": 256,
     "timeDay": 239,
-    "timeWeek": 247,
+    "timeWeek": 246,
     "timeMonth": 245,
     "timeYear": 256,
     "dailyMinutesDown": {
@@ -168,8 +167,7 @@
       "2023-11-07": 1440,
       "2023-11-06": 1440,
       "2023-11-05": 1440,
-      "2023-11-04": 1440,
-      "2023-11-03": 1440
+      "2023-11-04": 1440
     }
   }
 ]
