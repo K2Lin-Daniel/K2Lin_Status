@@ -10,10 +10,10 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "95.51%",
-    "time": 169,
-    "timeDay": 238,
-    "timeWeek": 172,
-    "timeMonth": 160,
+    "time": 170,
+    "timeDay": 236,
+    "timeWeek": 171,
+    "timeMonth": 161,
     "timeYear": 170,
     "dailyMinutesDown": {
       "2024-02-28": 223,
@@ -33,8 +33,7 @@
       "2023-12-02": 1440,
       "2023-12-01": 1440,
       "2023-11-30": 1440,
-      "2023-11-29": 1440,
-      "2023-11-28": 1112
+      "2023-11-29": 1440
     }
   },
   {
@@ -49,8 +48,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 144,
-    "timeDay": 120,
-    "timeWeek": 127,
+    "timeDay": 135,
+    "timeWeek": 129,
     "timeMonth": 154,
     "timeYear": 145,
     "dailyMinutesDown": {
@@ -70,14 +69,13 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.39%",
     "time": 484,
-    "timeDay": 506,
-    "timeWeek": 493,
+    "timeDay": 477,
+    "timeWeek": 494,
     "timeMonth": 490,
     "timeYear": 483,
     "dailyMinutesDown": {
       "2023-11-30": 677,
-      "2023-11-29": 1440,
-      "2023-11-28": 1112
+      "2023-11-29": 1440
     }
   },
   {
@@ -90,11 +88,11 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "95.40%",
+    "uptimeYear": "95.41%",
     "time": 699,
-    "timeDay": 702,
-    "timeWeek": 721,
-    "timeMonth": 731,
+    "timeDay": 762,
+    "timeWeek": 720,
+    "timeMonth": 733,
     "timeYear": 697,
     "dailyMinutesDown": {
       "2024-01-24": 143,
@@ -115,8 +113,7 @@
       "2023-12-02": 1440,
       "2023-12-01": 1440,
       "2023-11-30": 1440,
-      "2023-11-29": 1440,
-      "2023-11-28": 1112
+      "2023-11-29": 1440
     }
   },
   {
@@ -129,9 +126,9 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.97%",
-    "uptimeYear": "99.56%",
+    "uptimeYear": "99.57%",
     "time": 254,
-    "timeDay": 233,
+    "timeDay": 224,
     "timeWeek": 248,
     "timeMonth": 249,
     "timeYear": 253,
@@ -144,8 +141,7 @@
       "2024-02-01": 53,
       "2024-01-30": 17,
       "2023-12-23": 24,
-      "2023-12-22": 22,
-      "2023-11-28": 631
+      "2023-12-22": 22
     }
   }
 ]
