@@ -9,11 +9,11 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "96.21%",
-    "time": 169,
-    "timeDay": 152,
-    "timeWeek": 161,
-    "timeMonth": 160,
+    "uptimeYear": "96.30%",
+    "time": 170,
+    "timeDay": 153,
+    "timeWeek": 160,
+    "timeMonth": 158,
     "timeYear": 170,
     "dailyMinutesDown": {
       "2024-02-28": 223,
@@ -29,8 +29,7 @@
       "2023-12-06": 1440,
       "2023-12-05": 1440,
       "2023-12-04": 1440,
-      "2023-12-03": 1440,
-      "2023-12-02": 1440
+      "2023-12-03": 1440
     }
   },
   {
@@ -45,8 +44,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 144,
-    "timeDay": 104,
-    "timeWeek": 125,
+    "timeDay": 117,
+    "timeWeek": 127,
     "timeMonth": 146,
     "timeYear": 145,
     "dailyMinutesDown": {
@@ -60,18 +59,19 @@
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "chat",
     "status": "down",
-    "uptime": "99.64%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.59%",
+    "uptimeDay": "68.74%",
+    "uptimeWeek": "95.53%",
+    "uptimeMonth": "98.97%",
+    "uptimeYear": "99.91%",
     "time": 484,
-    "timeDay": 483,
-    "timeWeek": 495,
-    "timeMonth": 491,
+    "timeDay": 485,
+    "timeWeek": 494,
+    "timeMonth": 492,
     "timeYear": 485,
     "dailyMinutesDown": {
-      "2024-11-30": 1
+      "2024-12-01": 150,
+      "2024-11-30": 300
     }
   },
   {
@@ -84,11 +84,11 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "96.11%",
-    "time": 699,
-    "timeDay": 732,
-    "timeWeek": 723,
-    "timeMonth": 732,
+    "uptimeYear": "96.20%",
+    "time": 698,
+    "timeDay": 707,
+    "timeWeek": 724,
+    "timeMonth": 730,
     "timeYear": 701,
     "dailyMinutesDown": {
       "2024-01-24": 143,
@@ -105,8 +105,7 @@
       "2023-12-06": 1440,
       "2023-12-05": 1440,
       "2023-12-04": 1440,
-      "2023-12-03": 1440,
-      "2023-12-02": 1440
+      "2023-12-03": 1440
     }
   },
   {
@@ -121,7 +120,7 @@
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.94%",
     "time": 253,
-    "timeDay": 239,
+    "timeDay": 245,
     "timeWeek": 250,
     "timeMonth": 250,
     "timeYear": 253,
