@@ -9,9 +9,9 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "96.48%",
+    "uptimeYear": "96.57%",
     "time": 170,
-    "timeDay": 170,
+    "timeDay": 173,
     "timeWeek": 165,
     "timeMonth": 159,
     "timeYear": 170,
@@ -28,8 +28,7 @@
       "2023-12-07": 1440,
       "2023-12-06": 1440,
       "2023-12-05": 1440,
-      "2023-12-04": 1440,
-      "2023-12-03": 1440
+      "2023-12-04": 1440
     }
   },
   {
@@ -44,7 +43,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 144,
-    "timeDay": 139,
+    "timeDay": 135,
     "timeWeek": 127,
     "timeMonth": 138,
     "timeYear": 145,
@@ -60,13 +59,13 @@
     "slug": "chat",
     "status": "up",
     "uptime": "99.52%",
-    "uptimeDay": "25.54%",
+    "uptimeDay": "55.90%",
     "uptimeWeek": "89.36%",
     "uptimeMonth": "97.55%",
     "uptimeYear": "99.80%",
     "time": 484,
-    "timeDay": 714,
-    "timeWeek": 513,
+    "timeDay": 600,
+    "timeWeek": 507,
     "timeMonth": 495,
     "timeYear": 485,
     "dailyMinutesDown": {
@@ -84,10 +83,10 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "96.39%",
+    "uptimeYear": "96.47%",
     "time": 698,
-    "timeDay": 693,
-    "timeWeek": 716,
+    "timeDay": 730,
+    "timeWeek": 723,
     "timeMonth": 729,
     "timeYear": 703,
     "dailyMinutesDown": {
@@ -104,8 +103,7 @@
       "2023-12-07": 1440,
       "2023-12-06": 1440,
       "2023-12-05": 1440,
-      "2023-12-04": 1440,
-      "2023-12-03": 1440
+      "2023-12-04": 1440
     }
   },
   {
@@ -114,13 +112,13 @@
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "our-craft-network",
     "status": "up",
-    "uptime": "95.27%",
+    "uptime": "95.28%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.94%",
     "time": 253,
-    "timeDay": 244,
+    "timeDay": 235,
     "timeWeek": 246,
     "timeMonth": 250,
     "timeYear": 253,
