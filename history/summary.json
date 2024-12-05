@@ -5,15 +5,15 @@
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "main-site",
     "status": "up",
-    "uptime": "97.34%",
+    "uptime": "97.35%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "97.31%",
+    "uptimeYear": "97.39%",
     "time": 170,
-    "timeDay": 178,
-    "timeWeek": 157,
-    "timeMonth": 160,
+    "timeDay": 171,
+    "timeWeek": 159,
+    "timeMonth": 161,
     "timeYear": 171,
     "dailyMinutesDown": {
       "2024-02-28": 223,
@@ -25,8 +25,7 @@
       "2023-12-10": 1440,
       "2023-12-09": 1440,
       "2023-12-08": 1440,
-      "2023-12-07": 1440,
-      "2023-12-06": 1440
+      "2023-12-07": 1440
     }
   },
   {
@@ -41,8 +40,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 144,
-    "timeDay": 120,
-    "timeWeek": 123,
+    "timeDay": 115,
+    "timeWeek": 120,
     "timeMonth": 130,
     "timeYear": 144,
     "dailyMinutesDown": {
@@ -61,9 +60,9 @@
     "uptimeWeek": "89.36%",
     "uptimeMonth": "97.55%",
     "uptimeYear": "99.80%",
-    "time": 483,
-    "timeDay": 381,
-    "timeWeek": 455,
+    "time": 482,
+    "timeDay": 404,
+    "timeWeek": 452,
     "timeMonth": 485,
     "timeYear": 485,
     "dailyMinutesDown": {
@@ -81,10 +80,10 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "97.21%",
+    "uptimeYear": "97.29%",
     "time": 698,
-    "timeDay": 682,
-    "timeWeek": 725,
+    "timeDay": 710,
+    "timeWeek": 723,
     "timeMonth": 726,
     "timeYear": 708,
     "dailyMinutesDown": {
@@ -98,8 +97,7 @@
       "2023-12-10": 1440,
       "2023-12-09": 1440,
       "2023-12-08": 1440,
-      "2023-12-07": 1440,
-      "2023-12-06": 1440
+      "2023-12-07": 1440
     }
   },
   {
@@ -114,7 +112,7 @@
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.94%",
     "time": 253,
-    "timeDay": 243,
+    "timeDay": 239,
     "timeWeek": 252,
     "timeMonth": 250,
     "timeYear": 252,
