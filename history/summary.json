@@ -9,9 +9,9 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "97.58%",
+    "uptimeYear": "97.66%",
     "time": 170,
-    "timeDay": 159,
+    "timeDay": 152,
     "timeWeek": 158,
     "timeMonth": 161,
     "timeYear": 171,
@@ -24,8 +24,7 @@
       "2023-12-11": 1440,
       "2023-12-10": 1440,
       "2023-12-09": 1440,
-      "2023-12-08": 1440,
-      "2023-12-07": 1440
+      "2023-12-08": 1440
     }
   },
   {
@@ -40,7 +39,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 144,
-    "timeDay": 117,
+    "timeDay": 123,
     "timeWeek": 121,
     "timeMonth": 130,
     "timeYear": 144,
@@ -62,9 +61,9 @@
     "uptimeYear": "99.80%",
     "time": 482,
     "timeDay": 394,
-    "timeWeek": 440,
-    "timeMonth": 482,
-    "timeYear": 485,
+    "timeWeek": 437,
+    "timeMonth": 481,
+    "timeYear": 484,
     "dailyMinutesDown": {
       "2024-12-01": 772,
       "2024-11-30": 300
@@ -76,15 +75,15 @@
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "auth",
     "status": "up",
-    "uptime": "95.97%",
+    "uptime": "95.98%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "97.48%",
+    "uptimeYear": "97.57%",
     "time": 697,
-    "timeDay": 728,
-    "timeWeek": 720,
-    "timeMonth": 727,
+    "timeDay": 755,
+    "timeWeek": 722,
+    "timeMonth": 728,
     "timeYear": 710,
     "dailyMinutesDown": {
       "2024-01-24": 143,
@@ -96,8 +95,7 @@
       "2023-12-11": 1440,
       "2023-12-10": 1440,
       "2023-12-09": 1440,
-      "2023-12-08": 1440,
-      "2023-12-07": 1440
+      "2023-12-08": 1440
     }
   },
   {
@@ -106,13 +104,13 @@
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "our-craft-network",
     "status": "up",
-    "uptime": "95.30%",
+    "uptime": "95.31%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.94%",
     "time": 253,
-    "timeDay": 244,
+    "timeDay": 243,
     "timeWeek": 252,
     "timeMonth": 251,
     "timeYear": 252,
