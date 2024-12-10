@@ -5,14 +5,14 @@
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "main-site",
     "status": "up",
-    "uptime": "97.36%",
+    "uptime": "97.37%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "98.68%",
+    "uptimeYear": "98.76%",
     "time": 170,
-    "timeDay": 152,
-    "timeWeek": 155,
+    "timeDay": 153,
+    "timeWeek": 154,
     "timeMonth": 161,
     "timeYear": 172,
     "dailyMinutesDown": {
@@ -20,8 +20,7 @@
       "2024-02-27": 36,
       "2023-12-14": 630,
       "2023-12-13": 1440,
-      "2023-12-12": 1440,
-      "2023-12-11": 1440
+      "2023-12-12": 1440
     }
   },
   {
@@ -36,8 +35,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 144,
-    "timeDay": 125,
-    "timeWeek": 122,
+    "timeDay": 128,
+    "timeWeek": 124,
     "timeMonth": 129,
     "timeYear": 144,
     "dailyMinutesDown": {
@@ -57,8 +56,8 @@
     "uptimeMonth": "97.55%",
     "uptimeYear": "99.80%",
     "time": 483,
-    "timeDay": 373,
-    "timeWeek": 386,
+    "timeDay": 354,
+    "timeWeek": 385,
     "timeMonth": 466,
     "timeYear": 483,
     "dailyMinutesDown": {
@@ -76,11 +75,11 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "98.58%",
+    "uptimeYear": "98.66%",
     "time": 703,
-    "timeDay": 704,
+    "timeDay": 682,
     "timeWeek": 719,
-    "timeMonth": 725,
+    "timeMonth": 724,
     "timeYear": 717,
     "dailyMinutesDown": {
       "2024-01-24": 143,
@@ -88,8 +87,7 @@
       "2024-01-04": 311,
       "2023-12-14": 630,
       "2023-12-13": 1440,
-      "2023-12-12": 1440,
-      "2023-12-11": 1440
+      "2023-12-12": 1440
     }
   },
   {
@@ -98,15 +96,15 @@
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "our-craft-network",
     "status": "up",
-    "uptime": "95.33%",
+    "uptime": "95.34%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.94%",
     "time": 253,
-    "timeDay": 242,
+    "timeDay": 250,
     "timeWeek": 250,
-    "timeMonth": 252,
+    "timeMonth": 253,
     "timeYear": 252,
     "dailyMinutesDown": {
       "2024-11-05": 15,
