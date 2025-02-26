@@ -11,13 +11,12 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.95%",
     "time": 167,
-    "timeDay": 154,
+    "timeDay": 150,
     "timeWeek": 153,
     "timeMonth": 156,
     "timeYear": 164,
     "dailyMinutesDown": {
-      "2024-02-28": 223,
-      "2024-02-27": 36
+      "2024-02-28": 223
     }
   },
   {
@@ -32,8 +31,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 145,
-    "timeDay": 127,
-    "timeWeek": 129,
+    "timeDay": 130,
+    "timeWeek": 130,
     "timeMonth": 138,
     "timeYear": 145,
     "dailyMinutesDown": {
@@ -52,8 +51,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.80%",
     "time": 466,
-    "timeDay": 389,
-    "timeWeek": 385,
+    "timeDay": 408,
+    "timeWeek": 386,
     "timeMonth": 390,
     "timeYear": 466,
     "dailyMinutesDown": {
@@ -73,8 +72,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 724,
-    "timeDay": 727,
-    "timeWeek": 703,
+    "timeDay": 769,
+    "timeWeek": 704,
     "timeMonth": 720,
     "timeYear": 724,
     "dailyMinutesDown": {}
@@ -85,13 +84,13 @@
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "our-craft-network",
     "status": "up",
-    "uptime": "95.76%",
+    "uptime": "95.77%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.88%",
     "uptimeYear": "99.82%",
     "time": 250,
-    "timeDay": 243,
+    "timeDay": 239,
     "timeWeek": 250,
     "timeMonth": 247,
     "timeYear": 250,
