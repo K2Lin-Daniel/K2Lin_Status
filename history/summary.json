@@ -11,13 +11,11 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.95%",
     "time": 165,
-    "timeDay": 154,
-    "timeWeek": 154,
-    "timeMonth": 156,
+    "timeDay": 153,
+    "timeWeek": 152,
+    "timeMonth": 155,
     "timeYear": 164,
-    "dailyMinutesDown": {
-      "2024-02-28": 223
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Cloud Music",
@@ -31,7 +29,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 145,
-    "timeDay": 128,
+    "timeDay": 125,
     "timeWeek": 131,
     "timeMonth": 138,
     "timeYear": 145,
@@ -51,8 +49,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.80%",
     "time": 466,
-    "timeDay": 390,
-    "timeWeek": 382,
+    "timeDay": 364,
+    "timeWeek": 381,
     "timeMonth": 390,
     "timeYear": 466,
     "dailyMinutesDown": {
@@ -72,8 +70,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 724,
-    "timeDay": 743,
-    "timeWeek": 703,
+    "timeDay": 690,
+    "timeWeek": 701,
     "timeMonth": 720,
     "timeYear": 724,
     "dailyMinutesDown": {}
@@ -90,8 +88,8 @@
     "uptimeMonth": "99.88%",
     "uptimeYear": "99.82%",
     "time": 250,
-    "timeDay": 237,
-    "timeWeek": 251,
+    "timeDay": 240,
+    "timeWeek": 250,
     "timeMonth": 247,
     "timeYear": 250,
     "dailyMinutesDown": {
