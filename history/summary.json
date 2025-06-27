@@ -34,7 +34,7 @@
     "timeMonth": 131,
     "timeYear": 138,
     "dailyMinutesDown": {
-      "2025-06-27": 1016,
+      "2025-06-27": 1043,
       "2025-06-26": 1440,
       "2025-06-25": 1440,
       "2025-06-24": 1440,
@@ -144,19 +144,19 @@
     "url": "https://auth.k2lin.com",
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "auth",
-    "status": "down",
+    "status": "up",
     "uptime": "96.96%",
-    "uptimeDay": "99.90%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptimeDay": "98.08%",
+    "uptimeWeek": "99.73%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.99%",
     "time": 729,
-    "timeDay": 756,
+    "timeDay": 752,
     "timeWeek": 732,
-    "timeMonth": 735,
+    "timeMonth": 734,
     "timeYear": 729,
     "dailyMinutesDown": {
-      "2025-06-27": 1
+      "2025-06-27": 28
     }
   },
   {
