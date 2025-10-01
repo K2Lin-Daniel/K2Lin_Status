@@ -4,19 +4,19 @@
     "url": "https://k2lin.com",
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "main-site",
-    "status": "degraded",
+    "status": "up",
     "uptime": "98.20%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.16%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.97%",
     "uptimeYear": "100.00%",
     "time": 184,
-    "timeDay": 778,
+    "timeDay": 750,
     "timeWeek": 304,
     "timeMonth": 263,
     "timeYear": 184,
     "dailyMinutesDown": {
-      "2025-10-01": 0
+      "2025-10-01": 12
     }
   },
   {
@@ -25,7 +25,7 @@
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "cloud-music",
     "status": "down",
-    "uptime": "81.02%",
+    "uptime": "81.01%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "1.38%",
@@ -36,7 +36,7 @@
     "timeMonth": 0,
     "timeYear": 135,
     "dailyMinutesDown": {
-      "2025-10-01": 1000,
+      "2025-10-01": 1012,
       "2025-09-30": 1440,
       "2025-09-29": 1440,
       "2025-09-28": 1440,
@@ -254,7 +254,7 @@
     "timeMonth": 754,
     "timeYear": 732,
     "dailyMinutesDown": {
-      "2025-10-01": 1001,
+      "2025-10-01": 1013,
       "2025-09-30": 1440,
       "2025-09-29": 1440,
       "2025-09-28": 1440,
