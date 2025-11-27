@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Custom frontend for Upptime status page",
   "scripts": {
-    "build": "node scripts/build-config.js"
+    "build": "node scripts/build.js"
   },
   "dependencies": {
     "js-yaml": "^4.1.0"
