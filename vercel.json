@@ -1,7 +1,3 @@
 {
-  "rewrites": [
-    { "source": "/api/:match*", "destination": "/api/:match*" },
-    { "source": "/", "destination": "/frontend/index.html" },
-    { "source": "/:file((?!api/).*)", "destination": "/frontend/:file" }
-  ]
+  "outputDirectory": "public"
 }

@@ -3,3 +3,4 @@ frontend/config.json
 .DS_Store
 verification/
 server.log
+public/

@@ -81,8 +81,8 @@ async function renderServices(sites) {
             // Fetch uptime and response time data
             // We use the slug from config.json to find the correct api folder
             const [uptimeRes, responseTimeRes] = await Promise.all([
-                fetch(`../api/${site.slug}/uptime.json`),
-                fetch(`../api/${site.slug}/response-time.json`)
+                fetch(`./api/${site.slug}/uptime.json`),
+                fetch(`./api/${site.slug}/response-time.json`)
             ]);
 
             let uptimeData = { message: 'Unknown' };
