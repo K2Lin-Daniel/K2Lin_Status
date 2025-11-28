@@ -77,6 +77,11 @@ try {
 
     fs.writeFileSync(path.join(publicDir, 'config.json'), JSON.stringify(output, null, 2));
 
+    // 5. Generate CNAME
+    if (config['status-website'] && config['status-website'].cname) {
+        fs.writeFileSync(path.join(publicDir, 'CNAME'), config['status-website'].cname);
+    }
+
     // Cleanup: Remove config.json from frontend/ if it was generated there previously
     // to avoid confusion in dev.
     if (fs.existsSync(path.join(frontendDir, 'config.json'))) {
