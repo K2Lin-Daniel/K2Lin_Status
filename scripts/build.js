@@ -40,6 +40,13 @@ try {
     const apiDestDir = path.join(publicDir, 'api');
     copyDir(apiSrcDir, apiDestDir);
 
+    // 3.5 Copy Graphs
+    const graphsSrcDir = path.join(__dirname, '../graphs');
+    const graphsDestDir = path.join(publicDir, 'graphs');
+    if (fs.existsSync(graphsSrcDir)) {
+        copyDir(graphsSrcDir, graphsDestDir);
+    }
+
     // 4. Generate Config
     const configFile = fs.readFileSync(path.join(__dirname, '../.upptimerc.yml'), 'utf8');
     const config = yaml.load(configFile);
