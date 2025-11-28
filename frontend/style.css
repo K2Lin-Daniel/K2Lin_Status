@@ -9,6 +9,7 @@
     --error-color: #f44336;
     --unknown-color: #9e9e9e;
     --font-family: 'Comfortaa', cursive, sans-serif;
+    --font-family-cn: 'ZCOOL KuaiLe', cursive, sans-serif;
 }
 
 * {
@@ -23,6 +24,11 @@ body {
     color: var(--text-primary);
     line-height: 1.6;
     min-height: 100vh;
+}
+
+/* CN Font Override */
+body.lang-cn {
+    font-family: var(--font-family-cn);
 }
 
 a {
@@ -69,6 +75,32 @@ header {
 h1 {
     font-weight: 700;
     font-size: 2rem;
+}
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.lang-btn {
+    background: transparent;
+    border: 1px solid var(--text-secondary);
+    color: var(--text-primary);
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.2s;
+}
+
+.lang-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--text-primary);
 }
 
 nav {
@@ -138,6 +170,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    cursor: pointer; /* Clickable */
 }
 
 .service-card:hover {
@@ -145,10 +178,17 @@ nav a:hover {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
+/* Expanded State */
+.service-card.expanded {
+    grid-column: 1 / -1; /* Take full width */
+    cursor: default;
+}
+
 .card-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .service-name {
@@ -193,7 +233,6 @@ nav a:hover {
     justify-content: space-between;
     font-size: 0.9rem;
     color: var(--text-secondary);
-    margin-top: auto;
 }
 
 .stat-item {
@@ -212,6 +251,65 @@ nav a:hover {
 .stat-value {
     font-weight: 600;
     color: var(--text-primary);
+}
+
+/* Graph Container */
+.graph-container {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.graph-container.hidden {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.graph-controls {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    justify-content: flex-end;
+}
+
+.graph-controls button {
+    background: transparent;
+    border: 1px solid var(--text-secondary);
+    color: var(--text-secondary);
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.8rem;
+    transition: all 0.2s;
+}
+
+.graph-controls button:hover,
+.graph-controls button.active {
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+    color: #fff;
+}
+
+.graph-image-wrapper {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #fff; /* Graph images usually have white or transparent bg, white ensures visibility if transparent */
+    padding: 10px;
+}
+
+.graph-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 400px;
+    object-fit: contain;
 }
 
 /* Footer */
