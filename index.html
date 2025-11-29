@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>Service Status</title>
     <meta name="description" content="A cute, sakura-themed service status page for monitoring system uptime and performance.">
+    <link rel="preload" href="fonts.css" as="style">
+    <link rel="preload" href="style.1a6f7720.css" as="style">
+    <link rel="preload" href="./assets/fonts/Comfortaa-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="./assets/fonts/Comfortaa-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="./assets/fonts/ZCOOLKuaiLe-Regular.ttf" as="font" type="font/ttf" crossorigin>
     <link rel="stylesheet" href="fonts.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.1a6f7720.css">
     <link id="favicon" rel="icon" href="" type="image/x-icon">
 </head>
 <body>
@@ -33,7 +41,64 @@
             </div>
 
             <div class="services-grid" id="services-grid">
-                <!-- Service cards will be injected here -->
+                <!-- Skeleton Loading State -->
+                <div class="service-card skeleton">
+                    <div class="card-header">
+                        <div class="service-name">
+                            <div class="skeleton-icon"></div>
+                            <div class="skeleton-text title"></div>
+                        </div>
+                        <div class="skeleton-pill"></div>
+                    </div>
+                    <div class="card-stats">
+                        <div class="stat-item">
+                            <div class="skeleton-text label"></div>
+                            <div class="skeleton-text value"></div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="skeleton-text label"></div>
+                            <div class="skeleton-text value"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card skeleton">
+                    <div class="card-header">
+                        <div class="service-name">
+                            <div class="skeleton-icon"></div>
+                            <div class="skeleton-text title"></div>
+                        </div>
+                        <div class="skeleton-pill"></div>
+                    </div>
+                    <div class="card-stats">
+                        <div class="stat-item">
+                            <div class="skeleton-text label"></div>
+                            <div class="skeleton-text value"></div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="skeleton-text label"></div>
+                            <div class="skeleton-text value"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card skeleton">
+                    <div class="card-header">
+                        <div class="service-name">
+                            <div class="skeleton-icon"></div>
+                            <div class="skeleton-text title"></div>
+                        </div>
+                        <div class="skeleton-pill"></div>
+                    </div>
+                    <div class="card-stats">
+                        <div class="stat-item">
+                            <div class="skeleton-text label"></div>
+                            <div class="skeleton-text value"></div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="skeleton-text label"></div>
+                            <div class="skeleton-text value"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
 
@@ -42,6 +107,6 @@
         </footer>
     </div>
 
-    <script src="script.js" defer></script>
+    <script src="script.6785f5d1.js" defer></script>
 </body>
 </html>
