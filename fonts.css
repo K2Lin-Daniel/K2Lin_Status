@@ -33,10 +33,3 @@
   font-display: swap;
   src: url('./assets/fonts/Comfortaa-Bold.ttf') format('truetype');
 }
-@font-face {
-  font-family: 'ZCOOL KuaiLe';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('./assets/fonts/ZCOOLKuaiLe-Regular.ttf') format('truetype');
-}
