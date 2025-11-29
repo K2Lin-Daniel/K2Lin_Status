@@ -1,81 +1,15 @@
-// Translations
-const translations = {
-    en: {
-        loading: "Loading status...",
-        error: "Error loading configuration",
-        operational: "Systems Normal",
-        degraded: "Degraded",
-        down: "Down",
-        allSystemsGo: "All Systems Go",
-        majorOutage: "Major Outage",
-        partialOutage: "Partial Outage",
-        responseTime: "Latency",
-        uptime: "Uptime",
-        day: "24h",
-        week: "Week",
-        month: "Month"
-    },
-    cn: {
-        loading: "加载状态中...",
-        error: "加载配置失败",
-        operational: "系统正常",
-        degraded: "性能下降",
-        down: "服务中断",
-        allSystemsGo: "所有系统正常",
-        majorOutage: "严重中断",
-        partialOutage: "部分中断",
-        responseTime: "延迟",
-        uptime: "在线率",
-        day: "24小时",
-        week: "周",
-        month: "月"
-    }
-};
 
-let currentLang = 'en';
 let globalConfig = null;
 let globalServices = [];
 
 document.addEventListener('DOMContentLoaded', async () => {
-    // 1. Detect Language
-    const userLang = navigator.language || navigator.userLanguage;
-    if (userLang.includes('zh')) {
-        currentLang = 'cn';
-    }
-    updateLanguageUI();
-
-    // 2. Setup Language Toggle
-    const langBtn = document.getElementById('lang-toggle');
-    langBtn.addEventListener('click', () => {
-        currentLang = currentLang === 'en' ? 'cn' : 'en';
-        updateLanguageUI();
-        updateContent();
-    });
-
-    // 3. Load Config
+    // Load Config
     globalConfig = await fetchConfig();
     if (globalConfig) {
         applyConfig(globalConfig);
         await renderServices(globalConfig.sites);
     }
 });
-
-function updateLanguageUI() {
-    // Update button text
-    const langText = document.getElementById('lang-text');
-    langText.textContent = currentLang === 'en' ? 'EN' : '中';
-
-    // Toggle font class on body
-    if (currentLang === 'cn') {
-        document.body.classList.add('lang-cn');
-    } else {
-        document.body.classList.remove('lang-cn');
-    }
-}
-
-function t(key) {
-    return translations[currentLang][key] || key;
-}
 
 function updateContent() {
     if (!globalServices.length) return;
@@ -92,7 +26,7 @@ function updateContent() {
 
     updateGlobalStatus(total, up, degraded);
 
-    // Re-render Service Cards (Update text only would be better, but re-render is easier)
+    // Re-render Service Cards
     renderServiceGrid(globalServices);
 }
 
@@ -103,7 +37,7 @@ async function fetchConfig() {
         return await response.json();
     } catch (error) {
         console.error('Error fetching config:', error);
-        document.getElementById('global-status').innerHTML = `<span class="status-text" style="color: var(--error-color)">${t('error')}</span>`;
+        document.getElementById('global-status').innerHTML = `<span class="status-text" style="color: var(--error-color)">Error loading configuration</span>`;
         return null;
     }
 }
@@ -153,8 +87,8 @@ function applyConfig(config) {
 }
 
 async function renderServices(sites) {
-    const grid = document.getElementById('services-grid');
-    grid.innerHTML = '';
+    // Note: We intentionally do NOT clear the grid here to prevent CLS.
+    // The skeleton loaders will remain until we call updateContent().
 
     // Fetch data
     const servicePromises = sites.map(async (site) => {
@@ -200,9 +134,9 @@ function renderServiceGrid(services) {
     grid.innerHTML = '';
 
     services.forEach(service => {
-        let statusText = t('operational');
-        if (service.calculatedStatus === 'down') statusText = t('down');
-        if (service.calculatedStatus === 'degraded') statusText = t('degraded');
+        let statusText = "Systems Normal";
+        if (service.calculatedStatus === 'down') statusText = "Down";
+        if (service.calculatedStatus === 'degraded') statusText = "Degraded";
 
         const card = document.createElement('div');
         card.className = `service-card ${service.calculatedStatus}`;
@@ -223,11 +157,11 @@ function renderServiceGrid(services) {
         stats.className = 'card-stats';
         stats.innerHTML = `
             <div class="stat-item">
-                <span class="stat-label">${t('responseTime')}</span>
+                <span class="stat-label">Latency</span>
                 <span class="stat-value">${service.responseTimeMsg}</span>
             </div>
             <div class="stat-item">
-                <span class="stat-label">${t('uptime')}</span>
+                <span class="stat-label">Uptime</span>
                 <span class="stat-value">${service.uptimeMsg}</span>
             </div>
         `;
@@ -237,9 +171,9 @@ function renderServiceGrid(services) {
         graphContainer.className = 'graph-container hidden';
         graphContainer.innerHTML = `
             <div class="graph-controls">
-                <button data-period="day" class="active">${t('day')}</button>
-                <button data-period="week">${t('week')}</button>
-                <button data-period="month">${t('month')}</button>
+                <button data-period="day" class="active">24h</button>
+                <button data-period="week">Week</button>
+                <button data-period="month">Month</button>
             </div>
             <div class="graph-image-wrapper">
                 <img src="./graphs/${service.slug}/response-time-day.png" alt="Response Time Graph" class="graph-img">
@@ -285,14 +219,14 @@ function updateGlobalStatus(total, up, degraded) {
     if (up === total) {
         statusEl.className = 'status-summary up';
         icon.textContent = '🌸';
-        text.textContent = t('allSystemsGo');
+        text.textContent = "All Systems Go";
     } else if (up === 0 && total > 0) {
         statusEl.className = 'status-summary down';
         icon.textContent = '🥀';
-        text.textContent = t('majorOutage');
+        text.textContent = "Major Outage";
     } else {
         statusEl.className = 'status-summary degraded';
         icon.textContent = '💮';
-        text.textContent = t('partialOutage');
+        text.textContent = "Partial Outage";
     }
 }
