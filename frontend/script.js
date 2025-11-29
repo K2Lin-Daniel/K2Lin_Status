@@ -284,15 +284,15 @@ function updateGlobalStatus(total, up, degraded) {
 
     if (up === total) {
         statusEl.className = 'status-summary up';
-        icon.textContent = '✅';
+        icon.textContent = '🌸';
         text.textContent = t('allSystemsGo');
     } else if (up === 0 && total > 0) {
         statusEl.className = 'status-summary down';
-        icon.textContent = '❌';
+        icon.textContent = '🥀';
         text.textContent = t('majorOutage');
     } else {
         statusEl.className = 'status-summary degraded';
-        icon.textContent = '⚠️';
+        icon.textContent = '💮';
         text.textContent = t('partialOutage');
     }
 }
