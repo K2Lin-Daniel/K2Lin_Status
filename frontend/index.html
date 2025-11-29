@@ -12,7 +12,6 @@
     <link rel="preload" href="style.css" as="style">
     <link rel="preload" href="./assets/fonts/Comfortaa-Regular.ttf" as="font" type="font/ttf" crossorigin>
     <link rel="preload" href="./assets/fonts/Comfortaa-Bold.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="./assets/fonts/ZCOOLKuaiLe-Regular.ttf" as="font" type="font/ttf" crossorigin>
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="style.css">
     <link id="favicon" rel="icon" href="" type="image/x-icon">
@@ -21,13 +20,12 @@
     <div class="container">
         <header>
             <div class="logo-area">
-                <img id="logo" src="" alt="Logo" class="hidden">
+                <div class="logo-wrapper">
+                    <img id="logo" src="" alt="Logo" class="hidden" width="40" height="40">
+                </div>
                 <h1 id="page-title">Service Status</h1>
             </div>
             <div class="header-controls">
-                <button id="lang-toggle" class="lang-btn" aria-label="Toggle Language">
-                    <span class="lang-icon">🌐</span> <span id="lang-text">EN</span>
-                </button>
                 <nav id="navbar"></nav>
             </div>
         </header>
