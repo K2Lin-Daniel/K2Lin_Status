@@ -1,6 +1,7 @@
 const fs = require('fs');
 const yaml = require('js-yaml');
 const path = require('path');
+const crypto = require('crypto');
 
 // Helper to copy directories recursively
 function copyDir(src, dest) {
@@ -21,6 +22,13 @@ function copyDir(src, dest) {
     }
 }
 
+function calculateHash(filePath) {
+    const fileBuffer = fs.readFileSync(filePath);
+    const hashSum = crypto.createHash('md5');
+    hashSum.update(fileBuffer);
+    return hashSum.digest('hex').substring(0, 8); // Use first 8 chars
+}
+
 try {
     // 1. Prepare Output Directory
     const publicDir = path.join(__dirname, '../public');
@@ -35,19 +43,54 @@ try {
     // Remove the dev config.json if it exists in source to avoid confusion,
     // though we will overwrite it next.
 
-    // 3. Copy API Data
+    // 3. Cache Busting (Hashing)
+    const stylePath = path.join(publicDir, 'style.css');
+    const scriptPath = path.join(publicDir, 'script.js');
+
+    let styleHash = '';
+    let scriptHash = '';
+    let newStyleName = 'style.css';
+    let newScriptName = 'script.js';
+
+    if (fs.existsSync(stylePath)) {
+        styleHash = calculateHash(stylePath);
+        newStyleName = `style.${styleHash}.css`;
+        fs.renameSync(stylePath, path.join(publicDir, newStyleName));
+    }
+
+    if (fs.existsSync(scriptPath)) {
+        scriptHash = calculateHash(scriptPath);
+        newScriptName = `script.${scriptHash}.js`;
+        fs.renameSync(scriptPath, path.join(publicDir, newScriptName));
+    }
+
+    // Update index.html references
+    const indexPath = path.join(publicDir, 'index.html');
+    if (fs.existsSync(indexPath)) {
+        let indexContent = fs.readFileSync(indexPath, 'utf8');
+
+        // Replace style.css references
+        indexContent = indexContent.replace(/href="style\.css"/g, `href="${newStyleName}"`);
+
+        // Replace script.js reference
+        indexContent = indexContent.replace(/src="script\.js"/g, `src="${newScriptName}"`);
+
+        fs.writeFileSync(indexPath, indexContent);
+    }
+
+    // 4. Copy API Data
     const apiSrcDir = path.join(__dirname, '../api');
     const apiDestDir = path.join(publicDir, 'api');
     copyDir(apiSrcDir, apiDestDir);
 
-    // 3.5 Copy Graphs
+    // 4.5 Copy Graphs
     const graphsSrcDir = path.join(__dirname, '../graphs');
     const graphsDestDir = path.join(publicDir, 'graphs');
     if (fs.existsSync(graphsSrcDir)) {
         copyDir(graphsSrcDir, graphsDestDir);
     }
 
-    // 4. Generate Config
+    // 5. Generate Config
     const configFile = fs.readFileSync(path.join(__dirname, '../.upptimerc.yml'), 'utf8');
     const config = yaml.load(configFile);
 
@@ -77,7 +120,7 @@ try {
 
     fs.writeFileSync(path.join(publicDir, 'config.json'), JSON.stringify(output, null, 2));
 
-    // 5. Generate CNAME
+    // 6. Generate CNAME
     if (config['status-website'] && config['status-website'].cname) {
         fs.writeFileSync(path.join(publicDir, 'CNAME'), config['status-website'].cname);
     }
@@ -89,6 +132,7 @@ try {
     }
 
     console.log('Build completed successfully. Output in public/');
+    console.log(`Hashed assets: ${newStyleName}, ${newScriptName}`);
 
 } catch (e) {
     console.error('Build failed:', e);

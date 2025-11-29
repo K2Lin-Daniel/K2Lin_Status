@@ -392,3 +392,57 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 183, 197, 1);
 }
+
+/* Skeleton Loading */
+.skeleton {
+    cursor: wait;
+}
+
+.skeleton-icon {
+    width: 28px;
+    height: 28px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+
+.skeleton-text {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    height: 1em;
+}
+
+.skeleton-text.title {
+    width: 150px;
+    height: 1.3rem;
+}
+
+.skeleton-text.label {
+    width: 60px;
+    height: 0.75rem;
+    margin-bottom: 0.2rem;
+}
+
+.skeleton-text.value {
+    width: 40px;
+    height: 1.1rem;
+}
+
+.skeleton-pill {
+    width: 80px;
+    height: 30px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* Skeleton Animation */
+.skeleton .skeleton-icon,
+.skeleton .skeleton-text,
+.skeleton .skeleton-pill {
+    animation: skeleton-pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes skeleton-pulse {
+    0% { opacity: 0.4; }
+    50% { opacity: 0.8; }
+    100% { opacity: 0.4; }
+}
