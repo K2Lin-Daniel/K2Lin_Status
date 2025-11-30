@@ -429,3 +429,31 @@ footer {
     50% { opacity: 0.8; }
     100% { opacity: 0.4; }
 }
+
+/* Detailed Stats */
+.detailed-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.stat-small {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.stat-small .label {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.2rem;
+}
+
+.stat-small .value {
+    font-weight: 700;
+    color: var(--text-primary);
+    font-size: 1rem;
+}
