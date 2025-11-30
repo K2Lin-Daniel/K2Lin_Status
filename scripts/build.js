@@ -90,6 +90,13 @@ try {
         copyDir(graphsSrcDir, graphsDestDir);
     }
 
+    // 4.6 Copy History
+    const historySrcDir = path.join(__dirname, '../history');
+    const historyDestDir = path.join(publicDir, 'history');
+    if (fs.existsSync(historySrcDir)) {
+        copyDir(historySrcDir, historyDestDir);
+    }
+
     // 5. Generate Config
     const configFile = fs.readFileSync(path.join(__dirname, '../.upptimerc.yml'), 'utf8');
     const config = yaml.load(configFile);

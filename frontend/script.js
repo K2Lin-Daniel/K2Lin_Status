@@ -1,6 +1,7 @@
 
 let globalConfig = null;
 let globalServices = [];
+let globalSummary = [];
 
 document.addEventListener('DOMContentLoaded', async () => {
     // Load Config
@@ -90,6 +91,16 @@ async function renderServices(sites) {
     // Note: We intentionally do NOT clear the grid here to prevent CLS.
     // The skeleton loaders will remain until we call updateContent().
 
+    // Fetch Summary Data first (for historical stats)
+    try {
+        const summaryRes = await fetch('./history/summary.json');
+        if (summaryRes.ok) {
+            globalSummary = await summaryRes.json();
+        }
+    } catch (e) {
+        console.warn('Failed to fetch history/summary.json', e);
+    }
+
     // Fetch data
     const servicePromises = sites.map(async (site) => {
         try {
@@ -108,11 +119,15 @@ async function renderServices(sites) {
             if (uptimeData.color === 'red') status = 'down';
             else if (uptimeData.color === 'yellow' || uptimeData.color === 'orange') status = 'degraded';
 
+            // Find matching summary data
+            const summaryItem = globalSummary.find(s => s.slug === site.slug) || {};
+
             return {
                 ...site,
                 calculatedStatus: status,
                 uptimeMsg: uptimeData.message,
                 responseTimeMsg: responseTimeData.message,
+                summary: summaryItem
             };
         } catch (e) {
             console.error(`Failed to fetch data for ${site.name}`, e);
@@ -120,7 +135,8 @@ async function renderServices(sites) {
                 ...site,
                 calculatedStatus: 'unknown',
                 uptimeMsg: '-',
-                responseTimeMsg: '-'
+                responseTimeMsg: '-',
+                summary: {}
             };
         }
     });
@@ -169,7 +185,33 @@ function renderServiceGrid(services) {
         // Graph Container (Hidden by default)
         const graphContainer = document.createElement('div');
         graphContainer.className = 'graph-container hidden';
+
+        let detailedStatsHtml = '';
+        if (service.summary && service.summary.uptimeDay) {
+            detailedStatsHtml = `
+                <div class="detailed-stats">
+                    <div class="stat-small">
+                        <span class="label">24h</span>
+                        <span class="value">${service.summary.uptimeDay}</span>
+                    </div>
+                    <div class="stat-small">
+                        <span class="label">7d</span>
+                        <span class="value">${service.summary.uptimeWeek}</span>
+                    </div>
+                    <div class="stat-small">
+                        <span class="label">30d</span>
+                        <span class="value">${service.summary.uptimeMonth}</span>
+                    </div>
+                    <div class="stat-small">
+                        <span class="label">1y</span>
+                        <span class="value">${service.summary.uptimeYear}</span>
+                    </div>
+                </div>
+            `;
+        }
+
         graphContainer.innerHTML = `
+            ${detailedStatsHtml}
             <div class="graph-controls">
                 <button data-period="day" class="active">24h</button>
                 <button data-period="week">Week</button>
