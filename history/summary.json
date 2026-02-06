@@ -6,9 +6,9 @@
     "slug": "main-site",
     "status": "up",
     "uptime": "98.41%",
-    "uptimeDay": "99.70%",
-    "uptimeWeek": "99.96%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
     "time": 197,
     "timeDay": 986,
@@ -16,7 +16,6 @@
     "timeMonth": 211,
     "timeYear": 198,
     "dailyMinutesDown": {
-      "2026-02-06": 4,
       "2025-11-19": 30,
       "2025-11-18": 60
     }
