@@ -11,8 +11,8 @@
     "uptimeMonth": "99.73%",
     "uptimeYear": "97.50%",
     "time": 210,
-    "timeDay": 151,
-    "timeWeek": 174,
+    "timeDay": 160,
+    "timeWeek": 173,
     "timeMonth": 191,
     "timeYear": 211,
     "dailyMinutesDown": {
@@ -45,8 +45,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 627,
-    "timeDay": 653,
-    "timeWeek": 601,
+    "timeDay": 661,
+    "timeWeek": 602,
     "timeMonth": 613,
     "timeYear": 627,
     "dailyMinutesDown": {}
@@ -63,9 +63,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 409,
-    "timeDay": 407,
-    "timeWeek": 418,
-    "timeMonth": 418,
+    "timeDay": 422,
+    "timeWeek": 419,
+    "timeMonth": 417,
     "timeYear": 409,
     "dailyMinutesDown": {}
   },
@@ -75,14 +75,14 @@
     "icon": "https://raw.githubusercontent.com/K2Lin-Daniel/K2Lin_Status/master/assets/Cloud-Icon.png",
     "slug": "auth",
     "status": "up",
-    "uptime": "87.29%",
+    "uptime": "87.30%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "66.77%",
     "time": 754,
-    "timeDay": 794,
-    "timeWeek": 753,
+    "timeDay": 779,
+    "timeWeek": 751,
     "timeMonth": 766,
     "timeYear": 754,
     "dailyMinutesDown": {
@@ -224,8 +224,8 @@
     "uptimeYear": "91.27%",
     "time": 274,
     "timeDay": 272,
-    "timeWeek": 301,
-    "timeMonth": 296,
+    "timeWeek": 302,
+    "timeMonth": 297,
     "timeYear": 275,
     "dailyMinutesDown": {
       "2026-05-08": 122,
@@ -275,8 +275,7 @@
       "2025-09-28": 1440,
       "2025-09-27": 1041,
       "2025-09-08": 22,
-      "2025-08-06": 63,
-      "2025-05-14": 34
+      "2025-08-06": 63
     }
   }
 ]
